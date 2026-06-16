@@ -1,42 +1,2508 @@
 [
   {
     "id": 1,
-    "question": "Apa ibu kota negara Indonesia?",
-    "options": ["Surabaya", "Bandung", "Jakarta", "Yogyakarta"],
-    "answer": 2,
-    "explanation": "Jakarta adalah ibu kota sekaligus kota terbesar di Indonesia."
+    "question": "[Numerik 1] 2, 4, 6, 8, 10, 12,.. Angka apa yang selanjutnya?",
+    "options": [
+      "15",
+      "18",
+      "13",
+      "16",
+      "14",
+      "17"
+    ],
+    "answer": 4,
+    "explanation": "Deret ini bertambah 2 setiap kali, sehingga angka berikutnya adalah 12 + 2 = 14."
   },
   {
     "id": 2,
-    "question": "Berapakah hasil dari 15 × 8?",
-    "options": ["100", "120", "110", "130"],
-    "answer": 1,
-    "explanation": "15 × 8 = 120. Cara mudah: 15 × 8 = (10 × 8) + (5 × 8) = 80 + 40 = 120."
+    "question": "[Numerik 1] Sebuah Mobil berjalan dengan kecepatan konstan 60 Km/jam. Mobil tersebut berjalan selama 1,5 jam, berapa jarak yang ditempuh?",
+    "options": [
+      "60 Km",
+      "120 Km",
+      "45 Km",
+      "95 Km",
+      "90 Km",
+      "80 Km"
+    ],
+    "answer": 4,
+    "explanation": "Jarak = kecepatan × waktu = 60 Km/jam × 1,5 jam = 90 Km."
   },
   {
     "id": 3,
-    "question": "Siapakah proklamator kemerdekaan Republik Indonesia?",
+    "question": "[Numerik 1] 1, 2, 4, 7, 11, 16,... Angka berapa yang berikutnya?",
     "options": [
-      "Soekarno & Hatta",
-      "Soeharto & Hamengkubuwono",
-      "Kartini & Diponegoro",
-      "Sultan Agung & Hasanuddin"
+      "18",
+      "23",
+      "20",
+      "19\n AJF. 22",
+      "21"
     ],
     "answer": 0,
-    "explanation": "Ir. Soekarno dan Drs. Mohammad Hatta memproklamasikan kemerdekaan Indonesia pada 17 Agustus 1945."
+    "explanation": "R MI A Deret ini bertambah dengan angka yang semakin besar: +1, +2, +3, +4, +5, jadi angka berikutnya adalah 16 + 6 = 22."
   },
   {
     "id": 4,
-    "question": "Planet apa yang paling dekat dengan Matahari?",
-    "options": ["Venus", "Bumi", "Mars", "Merkurius"],
-    "answer": 3,
-    "explanation": "Merkurius adalah planet terdekat dari Matahari dalam tata surya kita."
+    "question": "[Numerik 1] 1.12, 2.24, 3.36, 4.48, 5.6, 6.72,... Angka berapa yang berikutnya?",
+    "options": [
+      "7.84",
+      "7.82",
+      "7.24",
+      "7.88",
+      "8.12",
+      "7.2"
+    ],
+    "answer": 0,
+    "explanation": "Deret ini bertambah 1.12 setiap kali, jadi angka berikutnya adalah 7.72 + 0.12 = 7.84."
   },
   {
     "id": 5,
-    "question": "Rumus kimia air adalah …",
-    "options": ["CO₂", "H₂O", "O₂", "NaCl"],
+    "question": "[Numerik 1] Jika sebuah mesin memerlukan waktu 20 detik untuk mengisi 3 botol susu, berapa banyak botol yang akan terisi dalam waktu 2 menit?",
+    "options": [
+      "16",
+      "12",
+      "21",
+      "18",
+      "15",
+      "9"
+    ],
+    "answer": 3,
+    "explanation": "Dalam 1 menit, mesin bisa mengisi 9 botol (3 botol dalam 20 detik). Jadi dalam 2 menit akan mengisi 18 botol."
+  },
+  {
+    "id": 6,
+    "question": "[Numerik 1] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan?",
+    "options": [
+      "14",
+      "12",
+      "15",
+      "10",
+      "16",
+      "8"
+    ],
+    "answer": 2,
+    "explanation": "ganjil. Semua angka kecuali 15 adalah angka genap, sedangkan 15 adalah angka I A"
+  },
+  {
+    "id": 7,
+    "question": "[Numerik 1] 1.09, 1.20, 1.31, 1.42,... Angka berapa yang berikutnya?",
+    "options": [
+      "1.53",
+      "1.62",
+      "1.52",
+      "1.48",
+      "1.54",
+      "1.51"
+    ],
+    "answer": 0,
+    "explanation": "Deret ini bertambah 0.11 setiap kali, jadi angka berikutnya adalah 1.42 + 0.11 = 1.53."
+  },
+  {
+    "id": 8,
+    "question": "[Numerik 1] 21 pada 7 seperti 18 pada..?",
+    "options": [
+      "5",
+      "8",
+      "4",
+      "6",
+      "7",
+      "3"
+    ],
+    "answer": 3,
+    "explanation": "21 dibagi 7 = 3, dan 18 dibagi 6 = 3. Jadi angka yang tepat adalah 6."
+  },
+  {
+    "id": 9,
+    "question": "[Numerik 1] 2.06, 3.12, 4.18, 5.24, ... Angka berapa yang berikutnya?",
+    "options": [
+      "6.42",
+      "6.4",
+      "6.12",
+      "6.3",
+      "5.82",
+      "6.28"
+    ],
+    "answer": 3,
+    "explanation": "Deret ini bertambah 1.06 setiap kali, jadi angka berikutnya adalah 5.24 + 1.06 = 6.3."
+  },
+  {
+    "id": 10,
+    "question": "[Numerik 1] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan?",
+    "options": [
+      "2.4",
+      "1.6",
+      "2.6",
+      "1.2",
+      "1.3",
+      "1.8"
+    ],
+    "answer": 4,
+    "explanation": "Semua selain 1.3 adalah kelipatan 0.2."
+  },
+  {
+    "id": 11,
+    "question": "[Numerik 1] 12 pada 144 seperti 11 pada ...? I A",
+    "options": [
+      "121",
+      "124",
+      "128",
+      "111",
+      "110",
+      "122"
+    ],
+    "answer": 0,
+    "explanation": "12^2 = 144, dan 11^2 = 121."
+  },
+  {
+    "id": 12,
+    "question": "[Numerik 1] Jika harga asli suatu barang yang dijual adalah Rp. 2.050,- dan harga ini dikurangi potongan harga sebesar 10%, maka berapakah harga jualnya?",
+    "options": [
+      "Rp. 2.000,-",
+      "Rp. 1.845,-",
+      "Rp. 1.840,-",
+      "Rp. 1 940",
+      "Rp. 2.040,-",
+      "Rp. 205,-"
+    ],
     "answer": 1,
-    "explanation": "Air terdiri dari 2 atom Hidrogen dan 1 atom Oksigen, sehingga rumusnya H₂O."
+    "explanation": "Potongan harga = 10% dari 2.050 = 205, jadi harga jual = 2.050 - 205 = 1.845."
+  },
+  {
+    "id": 13,
+    "question": "[Numerik 1] Jika New York lima jam lebih lambat dan Los Angeles tiga jam lebih lambat dari New York, pukul berapakah di Los Angeles jika di London pukul 4 siang?",
+    "options": [
+      "6 pagi",
+      "5 pagi",
+      "7 pagi",
+      "10 pagi",
+      "4 pagi",
+      "8 pagi"
+    ],
+    "answer": 5,
+    "explanation": "Jika di London pukul 4 siang, maka di New York pukul 11 pagi, dan di Los Angeles pukul 8 pagi."
+  },
+  {
+    "id": 14,
+    "question": "[Numerik 1] Jika New York lima jam lebih lambat dari London dan pesawat meninggalkan London pukul 1.12 Siang (waktu setempat) dan tiba di New York pada pukul 1.18 Siang (waktu setempat), berapa lamakah perjalanan yang ditempuh?",
+    "options": [
+      "5 jam 42 menit",
+      "5 jam 2 menit",
+      "5 jam 6 menit",
+      "4 jam 6 menit",
+      "5 jam 48 menit",
+      "4 jam 2 menit"
+    ],
+    "answer": 2,
+    "explanation": "6 menit. A Perbedaan waktu antara London dan New York adalah 5 jam, jadi waktu perjalanan = 1.18 siang di New York - 1.12 siang di London = 5 jam I"
+  },
+  {
+    "id": 15,
+    "question": "[Numerik 1] Sebuah kereta api berangkat dari Jakarta pukul 10.10 malam dan tiba di Solo pukul 6.08 pagi. Berapa lamakah perjalanan yang ditempuh?",
+    "options": [
+      "7 jam 2 menit",
+      "8 jam 58 menit",
+      "8 jam 2 menit",
+      "6 jam 58 menit",
+      "7 jam 58 menit",
+      "7 jam18 menit"
+    ],
+    "answer": 4,
+    "explanation": "Perjalanan dimulai pada pukul 10.10 malam dan berakhir pada pukul 6.08 pagi. Perbedaannya adalah 7 jam 58 menit."
+  },
+  {
+    "id": 16,
+    "question": "[Numerik 1] Sebuah mobil melaju pada kecepatan rata-rata 40 Km/jam pada tiga jam pertama selama empat jam perjalanan. Jarak yang ditempuh 150 Km. Berapakah kecepatan rata-rata mobil tersebut pada jam yang terakhir?",
+    "options": [
+      "30km/jam",
+      "40km/jam",
+      "55km/jam",
+      "45km/jam",
+      "35km/jam",
+      "50km/jam"
+    ],
+    "answer": 0,
+    "explanation": "Jarak yang ditempuh pada tiga jam pertama adalah 40 Km/jam × 3 jam = 120 Km. Sisa jarak adalah 150 Km - 120 Km = 30 Km, yang ditempuh dalam 1 jam, jadi kecepatan rata- rata pada jam terakhir adalah 30 Km/jam."
+  },
+  {
+    "id": 17,
+    "question": "[Numerik 1] 1, 2, 3, 5, 8, 13,... Angka berapa yang berikutnya?",
+    "options": [
+      "18",
+      "25",
+      "21",
+      "19",
+      "23",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "A Deret ini adalah deret Fibonacci, di mana angka berikutnya adalah hasil penjumlahan dari dua angka sebelumnya: 8 + 13 = 21. I"
+  },
+  {
+    "id": 18,
+    "question": "[Numerik 3] Jika 12% dari suatu bilangan adalah 30, maka 8% dari bilangan tersebut adalah ....",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "22",
+      "24",
+      "25"
+    ],
+    "answer": 2,
+    "explanation": "Diketahui 12% dari bilangan = 30. Bilangan tersebut = 30 : 0,12 = 250. Maka 8% dari 250 = 0,08 x 250 = 20."
+  },
+  {
+    "id": 19,
+    "question": "[Numerik 3] A = 50% dari 140 dan B = 45% dari 160. Hubungan yang benar adalah ....",
+    "options": [
+      "B = A - 3",
+      "B = A + 1",
+      "B = A + 2",
+      "B = A + 3",
+      "B = A - 2",
+      "B = A + 5"
+    ],
+    "answer": 2,
+    "explanation": "A = 50% x 140 = 70. B = 45% x 160 = 72. Karena 72 = 70 + 2, maka hubungan yang benar adalah B = A + 2."
+  },
+  {
+    "id": 20,
+    "question": "[Numerik 3] Harga sebuah sepatu Rp620.000. Jika mendapat diskon 60%, berapakah harga setelah diskon?",
+    "options": [
+      "Rp248.000",
+      "Rp250.000",
+      "Rp252.000",
+      "Rp248.500",
+      "Rp245.000",
+      "Rp245.500"
+    ],
+    "answer": 0,
+    "explanation": "A Diskon 60% berarti pembeli membayar 40% dari harga awal. Harga setelah diskon = 40% x Rp620.000 = 0,4 x Rp620.000 = Rp248.000. I"
+  },
+  {
+    "id": 21,
+    "question": "[Numerik 3] 1/10 berpasangan dengan 0,1. Jika menggunakan pola yang sama, 3/5 berpasangan dengan ....",
+    "options": [
+      "0,6",
+      "0,5",
+      "0,45",
+      "0,4",
+      "0,3",
+      "0,35"
+    ],
+    "answer": 0,
+    "explanation": "Pecahan 1/10 sama dengan 0,1. Pecahan 3/5 jika diubah ke desimal adalah 3 : 5 = 0,6."
+  },
+  {
+    "id": 22,
+    "question": "[Numerik 3] 12 berpasangan dengan 144. Jika menggunakan pola yang sama, 11 berpasangan dengan ....",
+    "options": [
+      "121",
+      "132",
+      "111",
+      "100",
+      "99",
+      "110"
+    ],
+    "answer": 0,
+    "explanation": "Pola yang digunakan adalah kuadrat. 12² = 144, maka 11² = 121."
+  },
+  {
+    "id": 23,
+    "question": "[Numerik 3] 5/3 berpasangan dengan 1/3. Jika menggunakan pola yang sama, 5 berpasangan dengan ....",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "5/3 menjadi 1/3 karena dibagi 5. Dengan cara yang sama, 5 dibagi 5 menghasilkan 1."
+  },
+  {
+    "id": 24,
+    "question": "[Numerik 3] 0,02 + 0,345 = .... I A",
+    "options": [
+      "0,365",
+      "0,345",
+      "0,355",
+      "0,375",
+      "0,335",
+      "0,325"
+    ],
+    "answer": 0,
+    "explanation": "Tambahkan angka desimal sesuai tempatnya: 0,020 + 0,345 = 0,365."
+  },
+  {
+    "id": 25,
+    "question": "[Numerik 3] 0,125 + 0,05 = ....",
+    "options": [
+      "0,13",
+      "0,175",
+      "0,18",
+      "0,15",
+      "0,125",
+      "0,12"
+    ],
+    "answer": 1,
+    "explanation": "Samakan jumlah angka di belakang koma: 0,125 + 0,050 = 0,175."
+  },
+  {
+    "id": 26,
+    "question": "[Numerik 3] 1/2 + 2 3/4 = ....",
+    "options": [
+      "2 5/4",
+      "3 1/4",
+      "3 3/4",
+      "2 3/4",
+      "3 1/2",
+      "2 1/4"
+    ],
+    "answer": 1,
+    "explanation": "Ubah 1/2 menjadi 2/4. Maka 2/4 + 2 3/4 = 2 5/4. Karena 5/4 = 1 1/4, hasil akhirnya menjadi 3 1/4."
+  },
+  {
+    "id": 27,
+    "question": "[Numerik 3] 2 1/2 + 1 2/8 = ....",
+    "options": [
+      "3 6/9",
+      "3 3/4",
+      "3 1/2",
+      "3 5/8",
+      "3 7/8",
+      "3 1/4"
+    ],
+    "answer": 1,
+    "explanation": "2 1/2 sama dengan 2 4/8. Lalu 2 4/8 + 1 2/8 = 3 6/8. Pecahan 6/8 disederhanakan menjadi 3/4, jadi hasilnya 3 3/4."
+  },
+  {
+    "id": 28,
+    "question": "[Numerik 3] 1/8 = .... I A",
+    "options": [
+      "0,125",
+      "0,25",
+      "0,5",
+      "0,75",
+      "0,375",
+      "0,0625"
+    ],
+    "answer": 0,
+    "explanation": "Untuk mengubah 1/8 ke desimal, hitung 1 : 8 = 0,125."
+  },
+  {
+    "id": 29,
+    "question": "[Numerik 3] 1/2 + 3/4 = ....",
+    "options": [
+      "1,10",
+      "1,20",
+      "1 1/4",
+      "1 3/8",
+      "1 1/2",
+      "1 5/8"
+    ],
+    "answer": 2,
+    "explanation": "Ubah 1/2 menjadi 2/4, lalu 2/4 + 3/4 = 5/4. Pecahan 5/4 sama dengan 1 1/4."
+  },
+  {
+    "id": 30,
+    "question": "[Numerik 3] Manakah angka yang tidak memiliki persamaan dengan angka lainnya?",
+    "options": [
+      "14",
+      "15",
+      "8",
+      "12",
+      "10",
+      "16"
+    ],
+    "answer": 1,
+    "explanation": "Angka 14, 8, 12, 10, dan 16 adalah bilangan genap. Angka 15 adalah bilangan ganjil, sehingga berbeda dari yang lain."
+  },
+  {
+    "id": 31,
+    "question": "[Numerik 3] Ferdi mengendarai motor menempuh jarak 100 meter dalam 20 detik. Berapakah kecepatan rata-ratanya?",
+    "options": [
+      "5 m/s",
+      "10 m/s",
+      "15 m/s",
+      "20 m/s",
+      "25 m/s",
+      "30 m/s"
+    ],
+    "answer": 0,
+    "explanation": "Kecepatan rata-rata = jarak : waktu. Jadi 100 meter : 20 detik = 5 meter per detik. A"
+  },
+  {
+    "id": 32,
+    "question": "[Numerik 3] Sebuah mobil melaju dengan kecepatan 40 km/jam pada 3 jam pertama. Total perjalanan berlangsung 4 jam dan jarak yang I ditempuh 150 km. Berapakah kecepatan rata-rata pada jam terakhir?",
+    "options": [
+      "30 km/jam",
+      "35 km/jam",
+      "40 km/jam",
+      "45 km/jam",
+      "50 km/jam",
+      "55 km/jam"
+    ],
+    "answer": 0,
+    "explanation": "Dalam 3 jam pertama, jarak yang ditempuh = 40 x 3 = 120 km. Sisa jarak = 150 - 120 = 30 km. Karena sisa waktu adalah 1 jam, kecepatannya adalah 30 km/jam."
+  },
+  {
+    "id": 33,
+    "question": "[Numerik 3] Jarak perjalanan adalah 25 km. Jika perjalanan dilakukan dari pukul 07.00 sampai 09.00, berapakah kecepatan rata-ratanya?",
+    "options": [
+      "10 km/jam",
+      "12,5 km/jam",
+      "15 km/jam",
+      "17,5 km/jam",
+      "20 km/jam",
+      "22,5 km/jam"
+    ],
+    "answer": 1,
+    "explanation": "Waktu perjalanan dari 07.00 sampai 09.00 adalah 2 jam. Kecepatan rata-rata = jarak : waktu = 25 : 2 = 12,5 km/jam."
+  },
+  {
+    "id": 34,
+    "question": "[Numerik 3] Jarak dari A ke B adalah 60 km. Jika berangkat pukul 07.30 dengan kecepatan 40 km/jam, pukul berapa akan sampai?",
+    "options": [
+      "08.30",
+      "09.00",
+      "09.30",
+      "10.00",
+      "10.30",
+      "11.00"
+    ],
+    "answer": 1,
+    "explanation": "Waktu tempuh = jarak : kecepatan = 60 : 40 = 1,5 jam atau 1 jam 30 menit. Pukul 07.30 ditambah 1 jam 30 menit menjadi pukul 09.00."
+  },
+  {
+    "id": 35,
+    "question": "[Numerik 3] Kecepatan rata-rata kendaraan adalah 80 km/jam. Jarak tempuh 360 km. Kendaraan beristirahat 45 menit dan berangkat pukul 07.20. Pukul berapa kendaraan sampai?",
+    "options": [
+      "12.35",
+      "12.50",
+      "13.05",
+      "13.20",
+      "13.35",
+      "13.50"
+    ],
+    "answer": 0,
+    "explanation": "A Waktu berkendara = 360 : 80 = 4,5 jam atau 4 jam 30 menit. DitambahJistirahat menit = 12.35. I A 45 menit menjadi 5 jam 15 menit. Pukul 07.20 + 5 jam 15"
+  },
+  {
+    "id": 36,
+    "question": "[Numerik 3] Seseorang pergi dari A pukul 06.15 dan sampai di B pukul 09.45. Kecepatan rata-ratanya 60 km/jam dan ia beristirahat 1 jam. Berapakah jarak A ke B?",
+    "options": [
+      "120 km",
+      "130 km",
+      "140 km",
+      "150 km",
+      "160 km",
+      "170 km"
+    ],
+    "answer": 3,
+    "explanation": "Total waktu dari 06.15 sampai 09.45 adalah 3 jam 30 menit. Karena istirahat 1 jam, waktu berjalan sebenarnya adalah 2 jam 30 menit atau 2,5 jam. Jarak = 60 x 2,5 = 150 km."
+  },
+  {
+    "id": 37,
+    "question": "[Numerik 3] Sebuah mesin memerlukan waktu 20 detik untuk mengisi 3 botol susu. Berapa banyak botol yang terisi dalam 2 menit?",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "answer": 3,
+    "explanation": "Dua menit sama dengan 120 detik. Dalam 20 detik terisi 3 botol. Karena 120 detik = 6 x 20 detik, maka botol yang terisi = 6 x 3 = 18 botol."
+  },
+  {
+    "id": 38,
+    "question": "[Numerik 3] Sebuah rumah dapat dibangun dalam 30 hari oleh 10 pekerja. Jika ingin selesai dalam 20 hari, berapa pekerja yang dibutuhkan?",
+    "options": [
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answer": 3,
+    "explanation": "A Jumlah pekerjaan tetap sama, sehingga pekerja x hari bernilai tetap. 10 x 30 = 300 satuan kerja. Jika selesai 20 hari, jumlah pekerja = 300 : 20 = 15 pekerja. I"
+  },
+  {
+    "id": 39,
+    "question": "[Numerik 3] Sebuah jam lebih cepat 3 detik setiap 24 jam. Jika jam tersebut benar pada pukul 20.00 hari Sabtu, berapa detik lebih cepat pada hari Rabu pukul 20.00?",
+    "options": [
+      "9 detik",
+      "10 detik",
+      "11 detik",
+      "12 detik",
+      "13 detik",
+      "14 detik"
+    ],
+    "answer": 3,
+    "explanation": "Dari Sabtu pukul 20.00 sampai Rabu pukul 20.00 ada 4 hari. Setiap hari lebih cepat 3 detik, maka total lebih cepat = 4 x 3 = 12 detik."
+  },
+  {
+    "id": 40,
+    "question": "[Numerik 3] New York 5 jam lebih lambat dari London, sedangkan Los Angeles 3 jam lebih lambat dari New York. Pukul berapa di Los Angeles jika di London pukul 16.00?",
+    "options": [
+      "06.00",
+      "07.00",
+      "08.00",
+      "09.00",
+      "10.00",
+      "11.00"
+    ],
+    "answer": 2,
+    "explanation": "London pukul 16.00. New York 5 jam lebih lambat, maka di New York pukul 11.00. Los Angeles 3 jam lebih lambat dari New York, maka 11.00 - 3 jam = 08.00."
+  },
+  {
+    "id": 41,
+    "question": "[Numerik 3] Terdapat Rp526.000 dalam kas kecil. Sekretaris membeli 2 pulpen seharga Rp1.800 per buah dan 2 buku seharga Rp5.200 per buah. Berapa sisa uang kas kecil?",
+    "options": [
+      "Rp510.000",
+      "Rp512.000",
+      "Rp514.000",
+      "Rp516.000\n AJF. Rp520.000",
+      "Rp518.000"
+    ],
+    "answer": 1,
+    "explanation": "I A Total pulpen = 2 x Rp1.800 = Rp3.600. Total buku = 2 x Rp5.200 = Rp10.400. Total pengeluaran = Rp14.000. Sisa kas = Rp526.000 - Rp14.000 = Rp512.000."
+  },
+  {
+    "id": 42,
+    "question": "[Numerik 3] Seseorang membeli sepatu seharga Rp85.000 dan 2 pasang kaos kaki seharga Rp8.500 per pasang. Jika membayar Rp150.000, berapakah kembaliannya?",
+    "options": [
+      "Rp46.000",
+      "Rp47.000",
+      "Rp48.000",
+      "Rp49.000",
+      "Rp50.000",
+      "Rp51.000"
+    ],
+    "answer": 2,
+    "explanation": "Total harga kaos kaki = 2 x Rp8.500 = Rp17.000. Total belanja = Rp85.000 + Rp17.000 = Rp102.000. Kembalian = Rp150.000 - Rp102.000 = Rp48.000."
+  },
+  {
+    "id": 43,
+    "question": "[Numerik 3] Seseorang membeli 2 dus pensil dan 3 dus buku. Harga 1 dus pensil Rp35.000 dan harga 1 dus buku Rp75.000. Jika membayar Rp500.000, berapakah kembaliannya?",
+    "options": [
+      "Rp200.000",
+      "Rp205.000",
+      "Rp210.000",
+      "Rp215.000",
+      "Rp220.000",
+      "Rp225.000"
+    ],
+    "answer": 1,
+    "explanation": "Total pensil = 2 x Rp35.000 = Rp70.000. Total buku = 3 x Rp75.000 = Rp225.000. Total belanja = Rp70.000 + Rp225.000 = Rp295.000. Kembalian = Rp500.000 - Rp295.000 = Rp205.000."
+  },
+  {
+    "id": 44,
+    "question": "[Numerik 3] Enam tahun lalu, usia Dewi 3 kali usia Nita. Sekarang usia Dewi 2 kali usia Nita. Berapakah usia mereka sekarang?",
+    "options": [
+      "20 tahun dan 10 tahun",
+      "22 tahun dan 11 tahun",
+      "24 tahun dan 12 tahun",
+      "26 tahun dan 13 tahun\n AJF. 30 tahun dan 15 tahun",
+      "28 tahun dan 14 tahun"
+    ],
+    "answer": 2,
+    "explanation": "A Misalkan usia Nita sekarang x, maka usia Dewi sekarang 2x. Enam tahun lalu, usia NitaI x - 6 dan Dewi 2x - 6. Diketahui 2x - 6 = 3(x - 6). Maka 2x - 6 = 3x - 18, sehingga x = 12. Usia Nita 12 tahun dan Dewi 24 tahun."
+  },
+  {
+    "id": 45,
+    "question": "[Numerik 3] New York 5 jam lebih lambat dari London. Pesawat meninggalkan London pukul 13.12 dan tiba di New York pukul 13.10 waktu New York. Berapa lama waktu tempuh pesawat?",
+    "options": [
+      "4 jam 58 menit",
+      "5 jam 2 menit",
+      "5 jam 10 menit",
+      "5 jam 15 menit",
+      "5 jam 20 menit",
+      "5 jam 30 menit"
+    ],
+    "answer": 0,
+    "explanation": "Karena New York 5 jam lebih lambat, pukul 13.12 di London sama dengan pukul 08.12 di New York. Pesawat tiba di New York pukul 13.10. Jadi lama perjalanan = 13.10 - 08.12 = 4 jam 58 menit."
+  },
+  {
+    "id": 46,
+    "question": "[Numerik 3] 9 berpasangan dengan 7. Jika menggunakan pola yang sama, 11 berpasangan dengan ....",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": 2,
+    "explanation": "Dari 9 ke 7 berarti dikurangi 2. Maka 11 juga dikurangi 2, sehingga 11 - 2 = 9."
+  },
+  {
+    "id": 47,
+    "question": "[Numerik 3] Jika 1 poundsterling = $1,5, maka berapa dolar yang didapat untuk 6 poundsterling?",
+    "options": [
+      "$7",
+      "$8",
+      "$9",
+      "$10",
+      "$11",
+      "$12"
+    ],
+    "answer": 2,
+    "explanation": "A Setiap 1 poundsterling bernilai $1,5. Untuk 6 poundsterling, jumlah dolar = 6 x 1,5 = 9 dolar. I"
+  },
+  {
+    "id": 48,
+    "question": "[Numerik 3] 1,12 ; 2,24 ; 3,36 ; 4,48 ; 5,60 ; 6,72 ; .... Angka berapakah berikutnya?",
+    "options": [
+      "7,84",
+      "7,96",
+      "8,08",
+      "8,20",
+      "8,32",
+      "8,44"
+    ],
+    "answer": 0,
+    "explanation": "Pola deret menunjukkan pasangan angka dengan kelipatan 12: 1,12; 2,24; 3,36; dan seterusnya. Setelah 6,72, berikutnya adalah 7,84 karena 7 x 12 = 84."
+  },
+  {
+    "id": 49,
+    "question": "[Numerik 3] 28 adalah berapa persen dari 70?",
+    "options": [
+      "30%",
+      "35%",
+      "40%",
+      "45%",
+      "50%",
+      "55%"
+    ],
+    "answer": 2,
+    "explanation": "Untuk mencari persen, gunakan rumus bagian : keseluruhan x 100%. Jadi 28 : 70 x 100% = 0,4 x 100% = 40%."
+  },
+  {
+    "id": 50,
+    "question": "[Numerik 3] Sebuah kereta berangkat dari Jakarta pukul 22.10 dan tiba di Solo pukul 06.08 keesokan harinya. Berapa lama perjalanan yang ditempuh?",
+    "options": [
+      "7 jam 48 menit",
+      "7 jam 58 menit",
+      "8 jam 8 menit",
+      "8 jam 18 menit",
+      "8 jam 28 menit",
+      "8 jam 38 menit"
+    ],
+    "answer": 1,
+    "explanation": "Dari pukul 22.10 ke 24.00 adalah 1 jam 50 menit. Dari 00.00 ke 06.08 adalah 6 jam 8 menit. Total waktu = 1 jam 50 menit + 6 jam 8 menit = 7 jam 58 menit. I A"
+  },
+  {
+    "id": 51,
+    "question": "[Verbal 1] Pilot pada pesawat seperti sopir pada ………",
+    "options": [
+      "Terbang",
+      "Setir",
+      "Kemudi",
+      "Mobil",
+      "Sepeda",
+      "Motor"
+    ],
+    "answer": 3,
+    "explanation": "Pilot mengendalikan pesawat seperti halnya sopir mengendalikan mobil. Keduanya adalah kendaraan yang membutuhkan orang untuk mengoperasikannya."
+  },
+  {
+    "id": 52,
+    "question": "[Verbal 1] Mana di antara hal-hal berikut yang tidak memiliki kesamaan?",
+    "options": [
+      "Kemeja",
+      "Kaus",
+      "Celana",
+      "Rok",
+      "Cincin",
+      "Jas"
+    ],
+    "answer": 4,
+    "explanation": "Kemeja, kaus, celana, rok, dan jas adalah pakaian, sedangkan cincin adalah aksesori."
+  },
+  {
+    "id": 53,
+    "question": "[Verbal 1] Kabupaten pada provinsi seperti negara pada ….?",
+    "options": [
+      "Kota",
+      "Benua",
+      "Zona",
+      "Distrik\n AJF. Geografi",
+      "Kawasan"
+    ],
+    "answer": 1,
+    "explanation": "I Kabupaten adalah bagian dari sebuah provinsi, sedangkan negara adalah bagian dari benua. A"
+  },
+  {
+    "id": 54,
+    "question": "[Verbal 1] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan?",
+    "options": [
+      "Bayam",
+      "Kangkung",
+      "Sawi",
+      "Tomat",
+      "Selada",
+      "Daun Singkong"
+    ],
+    "answer": 3,
+    "explanation": "Bayam, kangkung, sawi, selada, dan daun singkong adalah jenis sayuran daun, sementara tomat adalah buah."
+  },
+  {
+    "id": 55,
+    "question": "[Verbal 1] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan?",
+    "options": [
+      "Serigala",
+      "Badak",
+      "Kucing Hutan",
+      "Buaya",
+      "Kijang",
+      "Jerapah"
+    ],
+    "answer": 3,
+    "explanation": "Serigala, badak, kucing hutan, kijang, dan jerapah adalah mamalia, sedangkan buaya adalah reptil."
+  },
+  {
+    "id": 56,
+    "question": "[Verbal 1] Lingkaran pada Bola seperti Bujursangkar pada...?",
+    "options": [
+      "Kubik",
+      "Jajaran Genjang",
+      "Kubus",
+      "Lonjong",
+      "Sama Sisi",
+      "Bulat"
+    ],
+    "answer": 2,
+    "explanation": "Lingkaran adalah bentuk dua dimensi pada bola, sementara bujursangkar adalah bentuk dua dimensi pada kubus."
+  },
+  {
+    "id": 57,
+    "question": "[Verbal 1] Kimia, Sejarah, Ahli Kimia, Sejarawan, Kedokteran, Astronomi,... Apa kata yang berikutnya? I A",
+    "options": [
+      "Ahli fisika",
+      "Ahli Bedah",
+      "Dokter",
+      "Astronot",
+      "Ahli Astrologi",
+      "Ahli Anatomi"
+    ],
+    "answer": 2,
+    "explanation": "Daftar tersebut berisi profesi ahli dalam bidang-bidang tertentu. Dokter adalah profesi dalam bidang kedokteran, mirip dengan ahli kimia dan sejarawan."
+  },
+  {
+    "id": 58,
+    "question": "[Verbal 1] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan?",
+    "options": [
+      "Banyak ikan",
+      "Sekumpulan Orang",
+      "Para kambing",
+      "Anak-anak",
+      "Anak anjing",
+      "Sekelompok Burung"
+    ],
+    "answer": 4,
+    "explanation": "semuanya jamak, selain anak anjing (tunggal)"
+  },
+  {
+    "id": 59,
+    "question": "[Verbal 1] Toko pada Perdagangan seperti Lumbung pada...?",
+    "options": [
+      "Hortikultura",
+      "Padi",
+      "Kuda",
+      "Hewan",
+      "Pertanian",
+      "Peternakan"
+    ],
+    "answer": 4,
+    "explanation": "Toko adalah tempat untuk menjual barang dalam perdagangan, sedangkan lumbung adalah tempat untuk menyimpan padi pada pertanian"
+  },
+  {
+    "id": 60,
+    "question": "[Verbal 1] Arsitek, Bangunan, Penggubah lagu, Musik, Koreografer,... Apa kata yang berikutnya?",
+    "options": [
+      "Opera",
+      "Potret",
+      "Film",
+      "Seni",
+      "Tarian",
+      "Gambar"
+    ],
+    "answer": 4,
+    "explanation": "Arsitek menciptakan bangunan, penggubah lagu menciptakan musik, dan koreografer menciptakan tarian."
+  },
+  {
+    "id": 61,
+    "question": "[Verbal 1] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan? I A",
+    "options": [
+      "Marah",
+      "Kaget",
+      "Berang",
+      "Naik Pitam",
+      "Geram",
+      "Murka"
+    ],
+    "answer": 1,
+    "explanation": "Marah, murka, berang, naik pitam, dan geram adalah ekspresi kemarahan, sedangkan kaget memiliki makna yang berbeda."
+  },
+  {
+    "id": 62,
+    "question": "[Verbal 1] Kecil, Terang, Besar, Gelap, Berisik, Keras,... Apa kata yang berikutnya?",
+    "options": [
+      "Kecil",
+      "Tenang",
+      "Lunak",
+      "Raksasa",
+      "Besar",
+      "Ringan"
+    ],
+    "answer": 1,
+    "explanation": "kecil lawannya besar, terang lawannya gelap, berisik lawannya tenang"
+  },
+  {
+    "id": 63,
+    "question": "[Verbal 1] Ramai pada Tersepi seperti Buruk pada …..?",
+    "options": [
+      "Lebih Jelek",
+      "Terburuk",
+      "Terbaik",
+      "Lebih Baik",
+      "Baik",
+      "Jelek"
+    ],
+    "answer": 2,
+    "explanation": "Ramai adalah kebalikan dari tersepi, sedangkan buruk adalah kebalikan dari terbaik, sehingga yang tepat adalah terbaik."
+  },
+  {
+    "id": 64,
+    "question": "[Verbal 1] Negara, Thailand, Logam, Perak, Hewan,... Apa kata yang berikutnya?",
+    "options": [
+      "Reptil",
+      "Unta",
+      "Burung",
+      "Mamalia",
+      "Ikan",
+      "Serangga"
+    ],
+    "answer": 1,
+    "explanation": "Thailand adalah negara, perak adalah logam, dan unta adalah hewan yang umum di negara-negara tertentu, seperti Thailand."
+  },
+  {
+    "id": 65,
+    "question": "[Verbal 1] Tempat pada Waktu seperti Dimana pada ….? I A",
+    "options": [
+      "Mengapa",
+      "Di sini",
+      "Sekarang",
+      "Kemudian",
+      "Kapan",
+      "Lokasi"
+    ],
+    "answer": 4,
+    "explanation": "\"Tempat\" berhubungan dengan \"dimana\", sedangkan \"waktu\" berhubungan dengan \"kapan\"."
+  },
+  {
+    "id": 66,
+    "question": "[Verbal 1] Itu pada ini seperti Di sana pada …..?",
+    "options": [
+      "Sekarang",
+      "Waktu Itu",
+      "Kapan",
+      "Di mana",
+      "Bagaimana",
+      "Di Sini"
+    ],
+    "answer": 5,
+    "explanation": "Itu pada ini seperti disana pada disini."
+  },
+  {
+    "id": 67,
+    "question": "[Verbal 1] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan?",
+    "options": [
+      "Mengutarakan",
+      "Mengabarkan",
+      "Menceritakan",
+      "Menginformasikan",
+      "Memberitahukan",
+      "Memohonkan"
+    ],
+    "answer": 5,
+    "explanation": "Mengutarakan, mengabarkan, menceritakan, menginformasikan, dan memberitahukan semua berarti memberi informasi, sedangkan memohonkan berarti meminta sesuatu."
+  },
+  {
+    "id": 68,
+    "question": "[Verbal 1] Sepersejuta detik, seperseribu detik, detik, menit, jam... Apa kata yang berikutnya?",
+    "options": [
+      "Waktu",
+      "Tanggal",
+      "Minggu",
+      "Bulan",
+      "Hari",
+      "Tahun"
+    ],
+    "answer": 4,
+    "explanation": "dan tahun. Waktu yang lebih besar dari jam adalah hari, setelah itu minggu, bulan, I A"
+  },
+  {
+    "id": 69,
+    "question": "[Verbal 1] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan?",
+    "options": [
+      "Melambung",
+      "Memuncak",
+      "Tertinggi",
+      "Mengangkasa",
+      "Membubung",
+      "Melangit"
+    ],
+    "answer": 2,
+    "explanation": "Melambung, memuncak, mengangkasa, membubung, dan melangit merujuk pada pergerakan ke atas, sedangkan tertinggi merujuk pada posisi atau keadaan yang paling tinggi."
+  },
+  {
+    "id": 70,
+    "question": "[Verbal 2] Kabupaten pada provinsi seperti negara pada?",
+    "options": [
+      "Kota",
+      "Zona",
+      "Benua",
+      "Distrik",
+      "Kawasan",
+      "Geografi"
+    ],
+    "answer": 2,
+    "explanation": "Kabupaten merupakan bagian dari provinsi. Dengan pola yang sama, negara merupakan bagian dari benua. Jadi, jawaban yang tepat adalah benua."
+  },
+  {
+    "id": 71,
+    "question": "[Verbal 2] Kecil, terang, besar, gelap, berisik, keras, …. Apa kata berikutnya?",
+    "options": [
+      "Kecil",
+      "Lunak",
+      "Besar",
+      "Tenang",
+      "Raksasa",
+      "Ringan"
+    ],
+    "answer": 3,
+    "explanation": "Pola soal dapat dibaca sebagai pasangan lawan kata yang disusun berselang. Kecil berlawanan dengan besar, terang berlawanan dengan gelap, maka berisik berlawanan dengan tenang. Karena pola utamanya adalah lawan kata, jawaban yang tepat adalah tenang."
+  },
+  {
+    "id": 72,
+    "question": "[Verbal 2] Mana dari hal-hal berikut yang tidak memiliki kesamaan?",
+    "options": [
+      "Melambung",
+      "Tertinggi\n\n AJD. Memuncak",
+      "Membumbung",
+      "Mengangkasa"
+    ],
+    "answer": 1,
+    "explanation": "F. Melangit I A Kata melambung, membumbung, memuncak, mengangkasa, dan melangit sama-sama menunjukkan gerakan atau proses naik ke atas. Sementara itu, tertinggi menunjukkan keadaan atau posisi paling tinggi, bukan proses bergerak naik. Jadi, kata yang tidak memiliki kesamaan adalah tertinggi."
+  },
+  {
+    "id": 73,
+    "question": "[Verbal 2] Kecil, terang, besar, gelap, berisik, keras, …. Apa kata berikutnya?",
+    "options": [
+      "Kecil",
+      "Lunak",
+      "Besar",
+      "Tenang",
+      "Raksasa",
+      "Ringan"
+    ],
+    "answer": 3,
+    "explanation": "Pola soal dapat dibaca sebagai pasangan lawan kata yang disusun berselang. Kecil berlawanan dengan besar, terang berlawanan dengan gelap, maka berisik berlawanan dengan tenang. Kata keras menjadi pasangan berikutnya jika pola dilanjutkan, tetapi untuk titik-titik setelah berisik, jawaban yang paling sesuai adalah tenang."
+  },
+  {
+    "id": 74,
+    "question": "[Verbal 2] Sepersejuta detik, seperseribu detik, detik, menit, jam, …. Apa kata berikutnya?",
+    "options": [
+      "Waktu",
+      "Minggu",
+      "Hari",
+      "Tanggal",
+      "Bulan",
+      "Tahun"
+    ],
+    "answer": 2,
+    "explanation": "Urutan pada soal menunjukkan satuan waktu dari ukuran yang sangat kecil menuju satuan yang lebih besar. Setelah detik adalah menit, setelah menit adalah jam, dan setelah jam adalah hari. Jadi, jawaban yang tepat adalah hari."
+  },
+  {
+    "id": 75,
+    "question": "[Verbal 2] Kimia, sejarah, ahli kimia, sejarawan, kedokteran, astronomi, …. Apa kata berikutnya?",
+    "options": [
+      "Ahli fisika",
+      "Ahli bedah",
+      "Dokter",
+      "Astronot",
+      "Ahli astrologi",
+      "Ahli anatomi"
+    ],
+    "answer": 2,
+    "explanation": "A Soal ini menghubungkan bidang ilmu dengan orang yang ahli atau bekerja dalam bidang tersebut. Kimia berhubungan dengan ahli kimia, I sejarah berhubungan dengan sejarawan, dan kedokteran berhubungan dengan dokter. Jadi, jawaban yang sesuai adalah dokter."
+  },
+  {
+    "id": 76,
+    "question": "[Verbal 2] Seng pada logam seperti anggrek pada?",
+    "options": [
+      "Bunga",
+      "Pohon",
+      "Botani",
+      "Baja",
+      "Mawar",
+      "Logam campuran"
+    ],
+    "answer": 0,
+    "explanation": "Seng merupakan salah satu jenis atau bagian dari kelompok logam. Hubungan yang sama berlaku pada anggrek, yaitu anggrek merupakan salah satu jenis bunga. Jadi, jawaban yang tepat adalah bunga."
+  },
+  {
+    "id": 77,
+    "question": "[Verbal 2] Mana dari hal-hal berikut yang tidak memiliki kesamaan?",
+    "options": [
+      "Bayam",
+      "Sawi",
+      "Selada",
+      "Kangkung",
+      "Tomat",
+      "Daun singkong"
+    ],
+    "answer": 4,
+    "explanation": "Bayam, sawi, selada, kangkung, dan daun singkong termasuk sayuran daun yang bagian daunnya umum dikonsumsi. Tomat berbeda karena termasuk buah, meskipun sering digunakan dalam masakan seperti sayuran. Jadi, yang tidak memiliki kesamaan adalah tomat."
+  },
+  {
+    "id": 78,
+    "question": "[Verbal 2] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan?",
+    "options": [
+      "Mengukus",
+      "Merebus",
+      "Menggoreng",
+      "Memanaskan",
+      "Mengasap",
+      "Memanggang"
+    ],
+    "answer": 3,
+    "explanation": "A Mengukus, merebus, menggoreng, mengasap, dan memanggang adalah teknik memasak atau cara mematangkan makanan. Memanaskan bersifat lebih umum, yaitu membuat sesuatu menjadi panas, tetapi tidak selalu menunjukkan teknik memasak tertentu. Jadi, jawaban yang berbeda adalah memanaskan. I"
+  },
+  {
+    "id": 79,
+    "question": "[Verbal 2] Zoologi pada hewan seperti antropologi pada?",
+    "options": [
+      "Serangga",
+      "Pengetahuan",
+      "Semut",
+      "Politik",
+      "Orang",
+      "Bahasa"
+    ],
+    "answer": 4,
+    "explanation": "Zoologi adalah ilmu yang mempelajari hewan. Dengan pola yang sama, antropologi adalah ilmu yang mempelajari manusia atau orang. Jadi, jawaban yang tepat adalah orang."
+  },
+  {
+    "id": 80,
+    "question": "[Verbal 2] Lingkaran pada bola seperti bujur sangkar pada?",
+    "options": [
+      "Kotak",
+      "Kubus",
+      "Sama sisi",
+      "Jajar genjang",
+      "Lonjong",
+      "Segitiga"
+    ],
+    "answer": 1,
+    "explanation": "Lingkaran adalah bentuk datar yang berhubungan dengan bola sebagai bentuk ruang. Dengan pola yang sama, bujur sangkar adalah bentuk datar yang berhubungan dengan kubus sebagai bentuk ruang. Jadi, jawaban yang sesuai adalah kubus."
+  },
+  {
+    "id": 81,
+    "question": "[Verbal 2] Khianat pada percaya seperti permanen pada?",
+    "options": [
+      "Kekal",
+      "Tetap",
+      "Mapan",
+      "Langgeng",
+      "Fana",
+      "Sementara"
+    ],
+    "answer": 4,
+    "explanation": "A Khianat berlawanan makna dengan percaya. Dengan pola yang sama, permanen berarti tetap atau tidak berubah, sedangkan lawan katanya adalah fana, yaitu tidak kekal atau tidak abadi. Jadi, jawaban yang tepat adalah fana. I"
+  },
+  {
+    "id": 82,
+    "question": "[Verbal 2] Mana dari hal-hal berikut yang tidak memiliki kesamaan?",
+    "options": [
+      "Dasawarsa",
+      "Waktu",
+      "Bulan",
+      "Menit",
+      "Abad",
+      "Tahun"
+    ],
+    "answer": 1,
+    "explanation": "Dasawarsa, bulan, menit, abad, dan tahun adalah satuan atau periode waktu. Sementara itu, waktu adalah istilah umum yang mencakup semua satuan tersebut. Jadi, yang tidak sekelompok adalah waktu karena maknanya paling umum."
+  },
+  {
+    "id": 83,
+    "question": "[Verbal 2] Piano pada alat musik seperti palu pada?",
+    "options": [
+      "Gergaji",
+      "Paku",
+      "Pertukangan",
+      "Memalu",
+      "Tukang kayu",
+      "Perkakas"
+    ],
+    "answer": 5,
+    "explanation": "Piano adalah salah satu jenis alat musik. Dengan pola yang sama, palu adalah salah satu jenis perkakas atau alat kerja. Jadi, hubungan yang tepat adalah palu termasuk perkakas."
+  },
+  {
+    "id": 84,
+    "question": "[Verbal 2] Mana dari hal-hal berikut yang tidak memiliki kesamaan?",
+    "options": [
+      "Bayam",
+      "Sawi",
+      "Selada",
+      "Kangkung",
+      "Tomat",
+      "Daun bawang"
+    ],
+    "answer": 4,
+    "explanation": "A Bayam, sawi, selada, kangkung, dan daun bawang termasuk sayuran yang bagian daunnya sering dimanfaatkan. Tomat berbeda karena termasuk buah, meskipun sering digunakan dalam masakan seperti sayuran. Jadi, jawaban yang tidak memiliki kesamaan adalah tomat. I"
+  },
+  {
+    "id": 85,
+    "question": "[Verbal 2] Ramai pada tersepi seperti buruk pada?",
+    "options": [
+      "Lebih jelek",
+      "Terbaik",
+      "Baik",
+      "Terburuk",
+      "Lebih baik",
+      "Jelek"
+    ],
+    "answer": 1,
+    "explanation": "Ramai memiliki lawan kata sepi. Jika diberi imbuhan ter-, maka menjadi tersepi. Dengan pola yang sama, lawan kata buruk adalah baik, dan jika diberi imbuhan ter- menjadi terbaik. Jadi, jawaban yang tepat adalah terbaik."
+  },
+  {
+    "id": 86,
+    "question": "[Verbal 2] Negara, Thailand, logam, perak, hewan, …. Apa kata berikutnya?",
+    "options": [
+      "Reptil",
+      "Burung",
+      "Ikan",
+      "Unta",
+      "Mamalia",
+      "Serangga"
+    ],
+    "answer": 3,
+    "explanation": "Pola soal menunjukkan hubungan antara kelompok umum dan contoh khusus. Thailand adalah contoh negara, perak adalah contoh logam, maka yang dibutuhkan adalah contoh hewan. Unta merupakan salah satu jenis hewan. Jadi, jawaban yang tepat adalah unta."
+  },
+  {
+    "id": 87,
+    "question": "[Verbal 2] Ulat pada kupu-kupu seperti berudu pada?",
+    "options": [
+      "Lalat",
+      "Katak",
+      "Nyamuk",
+      "Kadal",
+      "Ular",
+      "Lebah"
+    ],
+    "answer": 1,
+    "explanation": "A Ulat adalah tahap awal dalam proses perubahan menjadi kupu-kupu. Dengan hubungan yang sama, berudu adalah tahap awal dalam proses perubahan menjadi katak. Jadi, jawaban yang tepat adalah katak. I"
+  },
+  {
+    "id": 88,
+    "question": "[Verbal 2] Negara, makanan, Spanyol, nasi, pakaian, warna, …. Apa kata berikutnya?",
+    "options": [
+      "Hijau",
+      "Turki",
+      "Tas",
+      "Ikan goreng",
+      "Kemeja",
+      "Merah"
+    ],
+    "answer": 4,
+    "explanation": "Soal ini menunjukkan pasangan kategori dan contohnya. Spanyol adalah contoh negara, nasi adalah contoh makanan, maka contoh dari pakaian adalah kemeja. Jadi, jawaban yang tepat adalah kemeja."
+  },
+  {
+    "id": 89,
+    "question": "[Verbal 2] Mana dari hal-hal berikut yang tidak memiliki kesamaan?",
+    "options": [
+      "Banyak ikan",
+      "Para kambing",
+      "Anak anjing",
+      "Sekumpulan orang",
+      "Anak-anak",
+      "Sekelompok burung"
+    ],
+    "answer": 1,
+    "explanation": "Pilihan lain menggunakan bentuk yang masih wajar untuk menyatakan jumlah, kelompok, atau sebutan umum. Sementara itu, kata para biasanya digunakan untuk manusia, misalnya para siswa atau para pekerja. Penggunaan para kambing kurang tepat karena kambing adalah hewan. Jadi, jawaban yang berbeda adalah para kambing."
+  },
+  {
+    "id": 90,
+    "question": "[Verbal 2] Nenek, kakek, ibu, bapak, …. Apa kata berikutnya?",
+    "options": [
+      "Cucu laki-laki",
+      "Putra",
+      "Keponakan",
+      "Sepupu",
+      "Cucu perempuan",
+      "Putri"
+    ],
+    "answer": 5,
+    "explanation": "A Pola soal menunjukkan pasangan anggota keluarga berdasarkan jenis kelamin dan tingkatan generasi. Nenek berpasangan dengan kakek, I lalu ibu berpasangan dengan bapak. Setelah itu, pasangan generasi berikutnya adalah anak, dan bentuk perempuan dari anak adalah putri. Jadi, jawaban yang tepat adalah putri."
+  },
+  {
+    "id": 91,
+    "question": "[Verbal 2] Toko pada perdagangan seperti lumbung pada?",
+    "options": [
+      "Batu bara",
+      "Kuda",
+      "Hewan",
+      "Padi",
+      "Peternakan",
+      "Pertanian"
+    ],
+    "answer": 5,
+    "explanation": "Toko sangat erat hubungannya dengan kegiatan perdagangan karena toko digunakan untuk menjual barang. Dengan pola yang sama, lumbung erat hubungannya dengan pertanian karena lumbung digunakan untuk menyimpan hasil panen, terutama padi. Jadi, jawaban yang tepat adalah pertanian."
+  },
+  {
+    "id": 92,
+    "question": "[Verbal 2] Beringin pada pohon seperti kakap pada?",
+    "options": [
+      "Dahan",
+      "Daun",
+      "Plankton",
+      "Tanaman",
+      "Mamalia",
+      "Ikan"
+    ],
+    "answer": 5,
+    "explanation": "Beringin adalah salah satu jenis pohon. Dengan pola yang sama, kakap adalah salah satu jenis ikan. Jadi, hubungan yang tepat adalah kakap termasuk ikan."
+  },
+  {
+    "id": 93,
+    "question": "[Verbal 2] Tempat pada waktu seperti di mana pada?",
+    "options": [
+      "Mengapa",
+      "Sekarang",
+      "Di sini",
+      "Kapan",
+      "Kemudian",
+      "Lokasi"
+    ],
+    "answer": 3,
+    "explanation": "berhubungan dengan tempat, maka kapan berhubungan dengan waktu. A Kata tanya untuk menanyakan tempat adalah di mana. Sementara itu, kata tanya untuk menanyakan waktu adalah kapan. Jadi, jika di mana I"
+  },
+  {
+    "id": 94,
+    "question": "[Verbal 2] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan?",
+    "options": [
+      "Memohon",
+      "Menitahkan",
+      "Menginstruksikan",
+      "Menyuruh",
+      "Mengomandokan",
+      "Memerintahkan"
+    ],
+    "answer": 0,
+    "explanation": "Menitahkan, menginstruksikan, menyuruh, mengomandokan, dan memerintahkan memiliki makna memberi perintah kepada orang lain. Sementara itu, memohon berarti meminta dengan rendah hati, bukan memberi perintah. Jadi, kata yang tidak memiliki kesamaan adalah memohon."
+  },
+  {
+    "id": 95,
+    "question": "[Verbal 2] Arsitek, bangunan, pengubah lagu, musik, koreografer, …. Apa kata berikutnya?",
+    "options": [
+      "Opera",
+      "Film",
+      "Tarian",
+      "Potret",
+      "Seni",
+      "Gambar"
+    ],
+    "answer": 2,
+    "explanation": "Arsitek berhubungan dengan bangunan karena arsitek merancang bangunan. Pengubah lagu berhubungan dengan musik karena pekerjaannya berkaitan dengan lagu atau musik. Koreografer berhubungan dengan tarian karena koreografer menyusun gerakan tari. Jadi, jawaban yang tepat adalah tarian."
+  },
+  {
+    "id": 96,
+    "question": "[Verbal 2] Kuda, kapal layar, kereta uap, mobil, pesawat terbang, …. Apa kata berikutnya?",
+    "options": [
+      "Kapal pesiar",
+      "Balon udara",
+      "Trem",
+      "Motor\n AJF. Perahu motor",
+      "Pesawat ruang angkasa"
+    ],
+    "answer": 4,
+    "explanation": "A I menuju yang lebih modern. Kuda adalah Urutan pada soal menunjukkan perkembangan alat transportasi dari yang lebih sederhana transportasi tradisional, kemudian kapal layar, kereta uap, mobil, pesawat terbang, dan yang lebih modern lagi adalah pesawat ruang angkasa. Jadi, jawaban yang tepat adalah pesawat ruang angkasa."
+  },
+  {
+    "id": 97,
+    "question": "[Verbal 2] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan?",
+    "options": [
+      "Marah",
+      "Berang",
+      "Geram",
+      "Kaget",
+      "Naik pitam",
+      "Murka"
+    ],
+    "answer": 3,
+    "explanation": "Marah, berang, geram, naik pitam, dan murka memiliki makna yang berhubungan dengan emosi marah. Sementara itu, kaget berarti terkejut, bukan marah. Jadi, kata yang tidak memiliki kesamaan adalah kaget."
+  },
+  {
+    "id": 98,
+    "question": "[Verbal 2] Mana dari hal-hal berikut ini yang tidak memiliki kesamaan?",
+    "options": [
+      "Di belakang",
+      "Di seberang",
+      "Di bawah",
+      "Di luar",
+      "Di depan",
+      "Di atas"
+    ],
+    "answer": 1,
+    "explanation": "Di belakang, di bawah, di luar, di depan, dan di atas menunjukkan posisi suatu benda atau tempat terhadap benda lain secara langsung. Sementara itu, di seberang menunjukkan posisi pada sisi lain yang biasanya dipisahkan oleh jalan, sungai, atau batas tertentu. Jadi, yang paling berbeda adalah di seberang."
+  },
+  {
+    "id": 99,
+    "question": "[Verbal 2] Amerika Utara, Eropa, Asia, Afrika, …. Apa kata berikutnya?",
+    "options": [
+      "Afrika Selatan",
+      "Numbu",
+      "Perancis",
+      "Amerika Selatan",
+      "Selandia Baru",
+      "Karibia"
+    ],
+    "answer": 3,
+    "explanation": "Amerika Selatan. Jadi, jawaban yang tepat adalah Amerika Selatan. A Amerika Utara, Eropa, Asia, dan Afrika adalah nama-nama benua. Dari pilihan yang tersedia, yang juga merupakan nama benua adalah I"
+  },
+  {
+    "id": 100,
+    "question": "[Verbal 2] Mana di antara hal-hal berikut yang tidak memiliki kesamaan?",
+    "options": [
+      "Kemeja",
+      "Kaos",
+      "Celana",
+      "Rok",
+      "Cincin",
+      "Gaun"
+    ],
+    "answer": 4,
+    "explanation": "Kemeja, kaos, celana, rok, dan gaun adalah jenis pakaian. Sementara itu, cincin bukan pakaian, melainkan aksesoris yang digunakan pada jari. Jadi, jawaban yang tidak memiliki kesamaan adalah cincin."
+  },
+  {
+    "id": 101,
+    "question": "[Verbal 2] Pilot pada pesawat seperti supir pada?",
+    "options": [
+      "Terbang",
+      "Setir",
+      "Kemudi",
+      "Mobil",
+      "Masinis",
+      "Penumpang"
+    ],
+    "answer": 3,
+    "explanation": "Pilot adalah orang yang mengemudikan pesawat. Dengan hubungan yang sama, supir adalah orang yang mengemudikan mobil. Jadi, jawaban yang tepat adalah mobil."
+  },
+  {
+    "id": 102,
+    "question": "[Verbal 2] Itu pada ini seperti di sana pada?",
+    "options": [
+      "Sekarang",
+      "Kapan",
+      "Bagaimana",
+      "Tempat",
+      "Karena",
+      "Di sini"
+    ],
+    "answer": 5,
+    "explanation": "A Kata itu berpasangan dengan ini. Itu menunjuk sesuatu yang lebih jauh, sedangkan ini menunjuk sesuatu yang dekat. Dengan pola yang sama, di sana menunjuk tempat yang jauh, sedangkan di sini menunjuk tempat yang dekat. Jadi, jawaban yang tepat adalah di sini. I"
+  },
+  {
+    "id": 103,
+    "question": "[Kepribadian 1] Saya lebih suka membaca:",
+    "options": [
+      "Kisah nyata tentang kriminal",
+      "?",
+      "Novel, sejarah atau roman\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 104,
+    "question": "[Kepribadian 1] Saya percaya bahwa orang lain memiliki intensi dan maksud yang baik.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 105,
+    "question": "[Kepribadian 1] Kebanyakan orang hanya memperhatikan diri mereka sendiri.",
+    "options": [
+      "Setuju",
+      "?\n\n Jawaban: Semua pilihan benar\n \n \n \n \n \n \n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 106,
+    "question": "[Kepribadian 1] Saya melakukan segala sesuatu sesuai aturan.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 107,
+    "question": "[Kepribadian 1] Sebelum saya mengatakan sesuatu, biasanya saya memikirkan dampaknya terhadap pendengar.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 108,
+    "question": "[Kepribadian 1] Saya terbuka terhadap perasaan saya.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 109,
+    "question": "[Kepribadian 1] Saya kadang-kadang merasa cemas bahwa saya mungkin telah mengatakan atau melakukan sesuatu yang menjengkelkan orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 110,
+    "question": "[Kepribadian 1] Saya lebih menyukai variasi daripada hal-hal yang rutin.",
+    "options": [
+      "Setuju",
+      "? \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 111,
+    "question": "[Kepribadian 1] Saya tidak tertarik dengan diskusi-diskusi teoretis.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 112,
+    "question": "[Kepribadian 1] Saya akan terus bekerja sampai semuanya sempurna.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 113,
+    "question": "[Kepribadian 1] Saya tidak terganggu dengan ketidakteraturan.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 114,
+    "question": "[Kepribadian 1] Saya jarang meninggikan suara saya atau berteriak.",
+    "options": [
+      "Setuju",
+      "?\n \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 115,
+    "question": "[Kepribadian 1] Saya tidak pernah bergosip tentang orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 116,
+    "question": "[Kepribadian 1] Saya tidak suka terlibat dengan masalah-masalah pribadi orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 117,
+    "question": "[Kepribadian 1] Orang-orang akan menggambarkan saya sebagai orang yang sangat intelek.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n yang kompleks."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 118,
+    "question": "[Kepribadian 1] Saya merasa sulit untuk mengikuti argumen- argumen",
+    "options": [
+      "Setuju",
+      "R \n MI\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju\n A?R"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 119,
+    "question": "[Kepribadian 1] Tidur saya terganggu dengan mimpi-mimpi yang tidak menyenangkan.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 120,
+    "question": "[Kepribadian 1] Saya bisa bersikap keras dan tegas terhadap orang lain jika diperlukan.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 121,
+    "question": "[Kepribadian 1] Saya lebih suka menunggu dan membiarkan orang lain memimpin.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n M"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 122,
+    "question": "[Kepribadian 1] Saya lebih menyukai menghabiskan malam hari: E",
+    "options": [
+      "Setuju",
+      "?\n \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 123,
+    "question": "[Kepribadian 1] Saya tidak pernah bisa menemukan barang-barang ketika saya menginginkannya.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 124,
+    "question": "[Kepribadian 1] Saya berhati-hati dalam bersikap di depan umum.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 125,
+    "question": "[Kepribadian 1] Saya terbuka terhadap keadaan diri saya kepada orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n biasanya:"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 126,
+    "question": "[Kepribadian 1] Jika saya mengatakan sesuatu yang memalukan, saya",
+    "options": [
+      "Segera melupakan hal itu",
+      "R \n MI\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Mencemaskan anggapan orang lain terhadap saya\n A?R"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 127,
+    "question": "[Kepribadian 1] Dalam hati, saya adalah orang yang cukup konvensional.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 128,
+    "question": "[Kepribadian 1] Saya suka dibiarkan sendirian.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 129,
+    "question": "[Kepribadian 1] Saya biasanya akan langsung mengerjakan tugas yang harus saya lakukan.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 130,
+    "question": "[Kepribadian 1] Saya menyukai ketertiban.",
+    "options": [
+      "Setuju",
+      "?\n \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 131,
+    "question": "[Kepribadian 1] Sebagian orang menggambarkan saya sebagai orang yang memiliki emosi yang tinggi.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 132,
+    "question": "[Kepribadian 1] Ada saat-saat di mana saya merasa iri terhadap nasib baik atau kesuksesan orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 133,
+    "question": "[Kepribadian 1] Orang memilih untuk menceritakan perasaan dan pemikiran pribadi mereka yang mendalam kepada saya.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n salah satu orang yang pertama memberikan simpati."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 134,
+    "question": "[Kepribadian 1] Jika seseorang sedang sedih, biasanya saya merupakan",
+    "options": [
+      "Setuju",
+      "I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju\n A?R"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 135,
+    "question": "[Kepribadian 1] Orang-orang mengatakan saya memiliki pemikiran yang amat analitis dan logis.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 136,
+    "question": "[Kepribadian 1] Saya mengalami sakit kepala:",
+    "options": [
+      "Cukup sering",
+      "Kadang-kadang",
+      "Hampir tidak pernah\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 137,
+    "question": "[Kepribadian 1] Saya mendapatkan diri saya merasa lemah.",
+    "options": [
+      "Tidak pernah",
+      "Jarang",
+      "Kadang-kadang\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n M"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 138,
+    "question": "[Kepribadian 1] Saya dikenal sebagai seseorang yang dominan. E",
+    "options": [
+      "Setuju",
+      "?\n \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 139,
+    "question": "[Kepribadian 1] Kebanyakan orang akan menggambarkan saya sebagai \"bintang pesta\".",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 140,
+    "question": "[Kepribadian 1] Saya dikenal sebagai orang yang riang, banyak bicara.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 141,
+    "question": "[Kepribadian 1] Saya menikmati membuat perencanaan yang detail.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n M"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 142,
+    "question": "[Kepribadian 1] Saya kadang-kadang merasa sedikit malu di depanEumum.",
+    "options": [
+      "Setuju",
+      "Tidak Setuju\n JB.A?\n RR\n \n MI\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 143,
+    "question": "[Kepribadian 1] Saya merasa mudah untuk memulai percakapan dengan orang yang tidak saya kenal.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 144,
+    "question": "[Kepribadian 1] Saya sangat sistematis dan teratur dalam bekerja.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 145,
+    "question": "[Kepribadian 1] Saya akan menikmati tampil di atas panggung.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 146,
+    "question": "[Kepribadian 1] Saya lebih suka menjadi:",
+    "options": [
+      "Insinyur sipil",
+      "?\n \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Interior desain"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 147,
+    "question": "[Kepribadian 1] Ada saat-saat dimana saya menangis ketika menonton film yang sedih.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 148,
+    "question": "[Kepribadian 1] Saya merasa sulit untuk memaafkan orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 149,
+    "question": "[Kepribadian 1] Saya melakukan hal-hal yang mungkin dianggap aneh Oleh orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n realistis."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 150,
+    "question": "[Kepribadian 1] Kadang-kadang orang mengatakan ide-ide saya tidak",
+    "options": [
+      "Setuju",
+      "?\n \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 151,
+    "question": "[Kepribadian 1] Saya akan menunjukkan apa yang saya rasakan.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 152,
+    "question": "[Kepribadian 1] Saya mudah merasa kecil hati dengan komentar orang yang negatif.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 153,
+    "question": "[Kepribadian 1] Saya merasa cemas tentang masa depan.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 154,
+    "question": "[Kepribadian 1] Saya tidak tertarik dengan ide-ide abstrak.",
+    "options": [
+      "Setuju",
+      "?\n \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 155,
+    "question": "[Kepribadian 1] Saya senang menjadi bagian dari kelompok.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 156,
+    "question": "[Kepribadian 1] Saya tidak bisa sendirian untuk waktu yang lama.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 157,
+    "question": "[Kepribadian 1] Saya tidak pernah membiarkan kamar saya berantakan.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n orang."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 158,
+    "question": "[Kepribadian 1] Saya tidak mudah tersinggung dibanding kebanyakan",
+    "options": [
+      "Setuju",
+      "Tidak Setuju\n JB.A?\n RR\n \n MI\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 159,
+    "question": "[Kepribadian 1] Saya tidak dalam keadaan untuk mudah marah.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 160,
+    "question": "[Kepribadian 1] Kadang-kadang tindakan saya dipengaruhi Oleh rasa iri hati saya.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 161,
+    "question": "[Kepribadian 1] Saya dikenal sebagai orang yang hangat, mendukung, dan memperhatikan orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 162,
+    "question": "[Kepribadian 1] Saya merasa sulit memahami kata-kata yang kompleks.",
+    "options": [
+      "Setuju",
+      "Tidak Setuju\n JB.A?\n RR\n \n MI\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 163,
+    "question": "[Kepribadian 1] Orang mengatakan bahwa saya memiliki perbendaharaan kata yang baik.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 164,
+    "question": "[Kepribadian 1] Saya kadang-kadang merasakan diri saya letih dan lesu tanpa sebab yang jelas.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 165,
+    "question": "[Kepribadian 1] Saya akan menyampaikan apa yang saya pikirkan.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 166,
+    "question": "[Kepribadian 1] Saya tidak takut untuk memberikan kritik.",
+    "options": [
+      "Setuju",
+      "?\n \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 167,
+    "question": "[Kepribadian 1] Saya tidak menyukai acara-acara yang ramai.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 168,
+    "question": "[Kepribadian 1] Saya menyimpan barang-barang dengan teratur.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 169,
+    "question": "[Kepribadian 1] Orang-orang menuduh saya sebagai orang yang tidak teratur.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n orang yang agak pemalu."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 170,
+    "question": "[Kepribadian 1] Sebagian orang mungkin menggambarkan saya sebagai",
+    "options": [
+      "Setuju",
+      "I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju\n A?R"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 171,
+    "question": "[Kepribadian 1] Di bioskop, saya lebih suka menonton:",
+    "options": [
+      "Film aksi",
+      "?",
+      "Komedi yang romantis\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 172,
+    "question": "[Kepribadian 1] Saya sangat menikmati pertunjukan kesenian (seperti balet, teater, dll.)",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 173,
+    "question": "[Kepribadian 1] Saya mencurigai maksud tersembunyi dari orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 174,
+    "question": "[Kepribadian 1] Kadang-kadang saya kesulitan membayangkan sesuatu.",
+    "options": [
+      "Setuju",
+      "Tidak Setuju\n JB.A?\n RR\n \n MI\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 175,
+    "question": "[Kepribadian 1] Saya sering melakukan hal-hal yang di luar dugaan.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 176,
+    "question": "[Kepribadian 1] Saya bersedia untuk membicarakan mengenai diri saya.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 177,
+    "question": "[Kepribadian 1] Ada saat-saat dimana saya bertanya dalam hati apakah orang benar-benar menyukai saya.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n M"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 178,
+    "question": "[Kepribadian 1] Terkadang saya takut bahwa saya telah melakukanEhal yang salah.",
+    "options": [
+      "Setuju",
+      "R \n MI\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju\n A?R"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 179,
+    "question": "[Kepribadian 1] Pada dasarnya, saya adalah orang yang konservatif.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 180,
+    "question": "[Kepribadian 1] Ketika bekerja dalam suatu proyek, saya lebih suka bekerja:",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 181,
+    "question": "[Kepribadian 1] Saya peduli terhadap lingkungan",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n M\n Pilihan jawaban:"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 182,
+    "question": "[Kepribadian 1] Saya akan senang menjadi konselor atau psikolog;Emenolong orang memecahkan masalah pribadi mereka. A. Setuju C. Tidak Setuju A?R B. I A Jawaban: Semua pilihan benar Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 183,
+    "question": "[Kepribadian 1] Saya memiliki pengertian dan empati akan perasaan orang lain secara alami.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 184,
+    "question": "[Kepribadian 1] Saya belajar lebih cepat dari kebanyakan orang.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 185,
+    "question": "[Kepribadian 1] Saya kadang-kadang merasa bosan dan jenuh tanpa alasan yang jelas.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 186,
+    "question": "[Kepribadian 1] Orang-orang mengatakan bahwa kadang-kadang suasana",
+    "options": [
+      "Setuju",
+      "I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju\n A?R"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 187,
+    "question": "[Kepribadian 1] Saya senang membiarkan orang lain memegang kendali.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 188,
+    "question": "[Kepribadian 1] Saya tidak menyukai pesta-pesta besar yang berisik.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 189,
+    "question": "[Kepribadian 1] Saya jarang bercanda.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 190,
+    "question": "[Kepribadian 1] Saya adalah orang yang sangat sistematis.",
+    "options": [
+      "Setuju",
+      "?\n \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 191,
+    "question": "[Kepribadian 1] Saya menyukai berbicara di depan umum.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 192,
+    "question": "[Kepribadian 1] Saya membutuhkan waktu beberapa lama untuk mengenal orang-orang baru.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 193,
+    "question": "[Kepribadian 1] Saya senang mendiskusikan buku dan film dengan orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 194,
+    "question": "[Kepribadian 1] Kebanyakan orang bisa disuap.",
+    "options": [
+      "Setuju",
+      "?\n \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 195,
+    "question": "[Kepribadian 1] Saya mempercayai apa yang dikatakan orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 196,
+    "question": "[Kepribadian 1] Kebanyakan orang akan menggambarkan saya sebagai seorang yang praktis.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 197,
+    "question": "[Kepribadian 1] Saya jarang menggali makna yang lebih mendalam tentang sesuatu hal.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n \n Jawaban: Semua pilihan benar\n \n \n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.\n \n \n MEorang lain."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 198,
+    "question": "[Kepribadian 1] Saya lebih suka bekerja sendiri jauh dari gangguan",
+    "options": [
+      "Setuju",
+      "?\n \n \n I\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur.",
+      "Tidak Setuju"
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 199,
+    "question": "[Kepribadian 1] Saya lebih suka sendiri dibandingkan bersama orang lain.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 200,
+    "question": "[Kepribadian 1] Saya memiliki tuntutan yang tinggi dalam pekerjaan saya.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
+  },
+  {
+    "id": 201,
+    "question": "[Kepribadian 1] Saya jarang menjadi marah.",
+    "options": [
+      "Setuju",
+      "?",
+      "Tidak Setuju\n JB.A?\n RR\n \n MI\n A\n Jawaban: Semua pilihan benar\n Soal kepribadian digunakan untuk memetakan kecenderungan respons. Pilih jawaban yang paling menggambarkan diri secara jujur."
+    ],
+    "answer": 0,
+    "explanation": "Soal kepribadian tidak memiliki jawaban benar/salah. Pilih yang paling menggambarkan dirimu."
   }
 ]
