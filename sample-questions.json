@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "question": "Apa ibu kota negara Indonesia?",
+    "options": ["Surabaya", "Bandung", "Jakarta", "Yogyakarta"],
+    "answer": 2,
+    "explanation": "Jakarta adalah ibu kota sekaligus kota terbesar di Indonesia."
+  },
+  {
+    "id": 2,
+    "question": "Berapakah hasil dari 15 × 8?",
+    "options": ["100", "120", "110", "130"],
+    "answer": 1,
+    "explanation": "15 × 8 = 120. Cara mudah: 15 × 8 = (10 × 8) + (5 × 8) = 80 + 40 = 120."
+  },
+  {
+    "id": 3,
+    "question": "Siapakah proklamator kemerdekaan Republik Indonesia?",
+    "options": [
+      "Soekarno & Hatta",
+      "Soeharto & Hamengkubuwono",
+      "Kartini & Diponegoro",
+      "Sultan Agung & Hasanuddin"
+    ],
+    "answer": 0,
+    "explanation": "Ir. Soekarno dan Drs. Mohammad Hatta memproklamasikan kemerdekaan Indonesia pada 17 Agustus 1945."
+  },
+  {
+    "id": 4,
+    "question": "Planet apa yang paling dekat dengan Matahari?",
+    "options": ["Venus", "Bumi", "Mars", "Merkurius"],
+    "answer": 3,
+    "explanation": "Merkurius adalah planet terdekat dari Matahari dalam tata surya kita."
+  },
+  {
+    "id": 5,
+    "question": "Rumus kimia air adalah …",
+    "options": ["CO₂", "H₂O", "O₂", "NaCl"],
+    "answer": 1,
+    "explanation": "Air terdiri dari 2 atom Hidrogen dan 1 atom Oksigen, sehingga rumusnya H₂O."
+  }
+]

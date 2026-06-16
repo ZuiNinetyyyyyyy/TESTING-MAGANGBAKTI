@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Format JSON — QuizMaster</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+<div class="screen active" style="background:var(--bg);">
+  <div class="format-body">
+    <a href="index.html" class="btn-back" style="display:inline-block;margin-bottom:28px;">← Kembali</a>
+    <h1>Format File <span style="color:var(--accent)">JSON</span></h1>
+    <p>Buat file <code style="background:var(--surface2);padding:2px 8px;border-radius:6px;font-family:'JetBrains Mono',monospace;color:var(--accent)">.json</code> dengan struktur berikut, lalu upload di halaman utama.</p>
+
+    <h3>📌 Struktur Dasar</h3>
+    <pre><span class="val-str">[</span>
+  <span class="val-str">{</span>
+    <span class="key">"id"</span>: <span class="val-num">1</span>,
+    <span class="key">"question"</span>: <span class="val-str">"Apa ibu kota Indonesia?"</span>,
+    <span class="key">"options"</span>: <span class="val-str">[</span>
+      <span class="val-str">"Surabaya"</span>,
+      <span class="val-str">"Jakarta"</span>,
+      <span class="val-str">"Bandung"</span>,
+      <span class="val-str">"Yogyakarta"</span>
+    <span class="val-str">]</span>,
+    <span class="key">"answer"</span>: <span class="val-num">1</span>
+  <span class="val-str">}</span>,
+  <span class="val-str">{</span>
+    <span class="key">"id"</span>: <span class="val-num">2</span>,
+    <span class="key">"question"</span>: <span class="val-str">"15 × 8 = ?"</span>,
+    <span class="key">"options"</span>: <span class="val-str">["100", "110", "120", "130"]</span>,
+    <span class="key">"answer"</span>: <span class="val-num">2</span>,
+    <span class="key">"explanation"</span>: <span class="val-str">"15 × 8 = 120. Kamu bisa hitung: 15 × 8 = 10×8 + 5×8 = 80 + 40 = 120."</span>
+  <span class="val-str">}</span>
+<span class="val-str">]</span></pre>
+
+    <h3>📋 Penjelasan Field</h3>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:28px;">
+      <table style="width:100%;border-collapse:collapse;font-size:.9rem;">
+        <thead>
+          <tr style="background:var(--surface2);">
+            <th style="padding:12px 16px;text-align:left;color:var(--muted);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;">Field</th>
+            <th style="padding:12px 16px;text-align:left;color:var(--muted);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;">Tipe</th>
+            <th style="padding:12px 16px;text-align:left;color:var(--muted);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;">Keterangan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-top:1px solid var(--border)">
+            <td style="padding:12px 16px;font-family:'JetBrains Mono',monospace;color:var(--accent)">id</td>
+            <td style="padding:12px 16px;color:var(--muted)">number</td>
+            <td style="padding:12px 16px">Opsional. ID unik soal.</td>
+          </tr>
+          <tr style="border-top:1px solid var(--border)">
+            <td style="padding:12px 16px;font-family:'JetBrains Mono',monospace;color:var(--accent)">question</td>
+            <td style="padding:12px 16px;color:var(--muted)">string</td>
+            <td style="padding:12px 16px"><b>Wajib.</b> Teks pertanyaan.</td>
+          </tr>
+          <tr style="border-top:1px solid var(--border)">
+            <td style="padding:12px 16px;font-family:'JetBrains Mono',monospace;color:var(--accent)">options</td>
+            <td style="padding:12px 16px;color:var(--muted)">array</td>
+            <td style="padding:12px 16px"><b>Wajib.</b> Daftar pilihan jawaban (min 2, maks 6).</td>
+          </tr>
+          <tr style="border-top:1px solid var(--border)">
+            <td style="padding:12px 16px;font-family:'JetBrains Mono',monospace;color:var(--accent)">answer</td>
+            <td style="padding:12px 16px;color:var(--muted)">number</td>
+            <td style="padding:12px 16px"><b>Wajib.</b> Index jawaban benar di array <code style="color:var(--accent);font-family:'JetBrains Mono',monospace">options</code> (mulai dari 0).</td>
+          </tr>
+          <tr style="border-top:1px solid var(--border)">
+            <td style="padding:12px 16px;font-family:'JetBrains Mono',monospace;color:var(--accent)">explanation</td>
+            <td style="padding:12px 16px;color:var(--muted)">string</td>
+            <td style="padding:12px 16px">Opsional. Penjelasan jawaban (tampil di halaman pembahasan).</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>💡 Tips</h3>
+    <div style="display:flex;flex-direction:column;gap:10px;color:var(--muted);font-size:.9rem;line-height:1.6;margin-bottom:40px;">
+      <p>• <code style="color:var(--accent);font-family:'JetBrains Mono',monospace">answer: 0</code> berarti pilihan <b>A</b> (index pertama).</p>
+      <p>• Kamu bisa membungkus array dalam objek: <code style="color:var(--accent);font-family:'JetBrains Mono',monospace">{"questions": [...]}</code> — keduanya diterima.</p>
+      <p>• Soal bisa berjumlah berapapun, tidak ada batasan.</p>
+      <p>• Aktifkan fitur <b>Acak urutan soal</b> di halaman utama agar soal diacak setiap kuis dimulai.</p>
+    </div>
+
+    <a href="index.html" class="btn-primary" style="text-decoration:none;display:inline-block;">← Kembali ke Halaman Utama</a>
+  </div>
+</div>
+</body>
+</html>

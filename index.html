@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuizMaster — Latihan Soal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════ SCREEN: HOME -->
+  <div id="screen-home" class="screen active">
+    <div class="home-bg">
+      <div class="bg-grid"></div>
+      <div class="bg-blob blob-1"></div>
+      <div class="bg-blob blob-2"></div>
+    </div>
+    <div class="home-content">
+      <div class="badge">✦ Platform Latihan Soal</div>
+      <h1 class="home-title">Quiz<span class="accent">Master</span></h1>
+      <p class="home-sub">Latih kemampuan kamu dengan soal pilihan ganda.<br />Pantau waktu & lihat skor akhir secara langsung.</p>
+
+      <div class="config-card">
+        <div class="config-row">
+          <label for="cfg-title">Judul Kuis</label>
+          <input id="cfg-title" type="text" placeholder="cth: Ujian Matematika Bab 3" />
+        </div>
+        <div class="config-row two-col">
+          <div>
+            <label for="cfg-time">Waktu per soal (detik)</label>
+            <input id="cfg-time" type="number" min="5" max="300" value="30" />
+          </div>
+          <div>
+            <label for="cfg-shuffle">Acak urutan soal?</label>
+            <select id="cfg-shuffle">
+              <option value="no">Tidak</option>
+              <option value="yes">Ya</option>
+            </select>
+          </div>
+        </div>
+        <div class="config-row">
+          <label>File Soal (JSON) <span class="hint">— atau gunakan soal contoh</span></label>
+          <div class="file-zone" id="drop-zone">
+            <span class="file-icon">📄</span>
+            <span id="file-label">Klik atau seret file <code>.json</code> ke sini</span>
+            <input type="file" id="file-input" accept=".json" hidden />
+          </div>
+        </div>
+        <div class="config-actions">
+          <button class="btn-secondary" id="btn-sample">Pakai Soal Contoh</button>
+          <button class="btn-primary" id="btn-start" disabled>Mulai Kuis →</button>
+        </div>
+      </div>
+
+      <a href="format.html" class="link-format">Lihat format file JSON ↗</a>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ SCREEN: QUIZ -->
+  <div id="screen-quiz" class="screen">
+    <header class="quiz-header">
+      <div class="quiz-meta">
+        <span id="quiz-title-bar">Kuis</span>
+        <span class="dot">·</span>
+        <span id="q-counter">1 / 10</span>
+      </div>
+      <div class="timer-wrap">
+        <svg class="timer-ring" viewBox="0 0 44 44">
+          <circle class="ring-bg" cx="22" cy="22" r="18"/>
+          <circle class="ring-fg" id="ring-fg" cx="22" cy="22" r="18"/>
+        </svg>
+        <span id="timer-num">30</span>
+      </div>
+    </header>
+
+    <div class="progress-bar-wrap">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+    <main class="quiz-body">
+      <div class="question-card" id="question-card">
+        <p class="q-label" id="q-label">Soal 1</p>
+        <h2 class="q-text" id="q-text">Pertanyaan muncul di sini.</h2>
+        <div class="options-grid" id="options-grid">
+          <!-- injected by JS -->
+        </div>
+      </div>
+    </main>
+
+    <footer class="quiz-footer">
+      <button class="btn-ghost" id="btn-prev">← Sebelumnya</button>
+      <button class="btn-primary" id="btn-next">Selanjutnya →</button>
+    </footer>
+  </div>
+
+  <!-- ══════════════════════════════════════════ SCREEN: RESULT -->
+  <div id="screen-result" class="screen">
+    <div class="result-wrap">
+      <div class="result-trophy" id="result-trophy">🏆</div>
+      <h2 class="result-title" id="result-title">Kuis Selesai!</h2>
+      <p class="result-subtitle" id="result-subtitle">Lihat hasil kamu di bawah ini.</p>
+
+      <div class="score-ring-wrap">
+        <svg class="score-ring" viewBox="0 0 120 120">
+          <circle class="sr-bg" cx="60" cy="60" r="50"/>
+          <circle class="sr-fg" id="sr-fg" cx="60" cy="60" r="50"/>
+        </svg>
+        <div class="score-center">
+          <span class="score-pct" id="score-pct">0%</span>
+          <span class="score-label">Skor</span>
+        </div>
+      </div>
+
+      <div class="stat-row">
+        <div class="stat-box correct">
+          <span class="stat-num" id="stat-correct">0</span>
+          <span class="stat-lbl">Benar</span>
+        </div>
+        <div class="stat-box wrong">
+          <span class="stat-num" id="stat-wrong">0</span>
+          <span class="stat-lbl">Salah</span>
+        </div>
+        <div class="stat-box skip">
+          <span class="stat-num" id="stat-skip">0</span>
+          <span class="stat-lbl">Dilewati</span>
+        </div>
+      </div>
+
+      <div class="result-actions">
+        <button class="btn-secondary" id="btn-review">Lihat Pembahasan</button>
+        <button class="btn-primary" id="btn-restart">Ulangi Kuis →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════ SCREEN: REVIEW -->
+  <div id="screen-review" class="screen">
+    <header class="review-header">
+      <button class="btn-back" id="btn-back-result">← Kembali ke Hasil</button>
+      <h2>Pembahasan Soal</h2>
+    </header>
+    <div class="review-list" id="review-list">
+      <!-- injected by JS -->
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
